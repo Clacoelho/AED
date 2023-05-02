@@ -17,7 +17,7 @@ void Seleção (int n, int v[]) {
         for (j = i+1; j < n; j++)
             if (v[j] < v[min]) min = j;
         x = v[i]; v[i] = v[min]; v[min] = x;
-}
+    }
 }
 
 
