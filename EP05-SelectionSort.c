@@ -43,7 +43,7 @@ int main() {
 
     for (i = 0; i < n; i++) {
 
-        v[i] = rand() % 5000; ////é necessário alterar para 10000, 15000 ou 20000 de acordo com o n escolhido 
+        v[i] = rand() % 5000; //é necessário alterar para 10000, 15000 ou 20000 de acordo com o n escolhido 
 
     }
 
