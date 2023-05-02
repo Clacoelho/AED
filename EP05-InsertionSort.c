@@ -12,19 +12,19 @@
 
 void Inserção (int n, int v[]) {
 
-int i, j, x;
+    int i, j, x;
 
-for (j = 1; /*A*/ j < n; j++) {
+    for (j = 1; /*A*/ j < n; j++) {
 
-x = v[j];
+        x = v[j];
 
-for (i = j-1; i >= 0 && v[i] > x; i--)
+        for (i = j-1; i >= 0 && v[i] > x; i--)
 
-v[i+1] = v[i];
+            v[i+1] = v[i];
 
-v[i+1] = x;
+        v[i+1] = x;
 
-}
+    }
 
 }
 
