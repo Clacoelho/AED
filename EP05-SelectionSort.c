@@ -25,7 +25,7 @@ void Seleção (int n, int v[]) {
 
 int main() {
 
-    int i, n = 5000;
+    int i, n = 5000; //é necessário alterar para n = 10000 n = 15000 n = 20000
 
     int v[n];//declara de forma manual o número máximo de elementos do vetor.
 
@@ -43,7 +43,7 @@ int main() {
 
     for (i = 0; i < n; i++) {
 
-        v[i] = rand() % 5000;
+        v[i] = rand() % 5000; ////é necessário alterar para 10000, 15000 ou 20000 de acordo com o n escolhido 
 
     }
 
